@@ -1,0 +1,5 @@
+train: /Users/kuki/PycharmProjects/Colonypicker/dataset/images/train
+val: /Users/kuki/PycharmProjects/Colonypicker/dataset/images/val
+
+nc: 1
+names: ['colony']
