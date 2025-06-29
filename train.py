@@ -27,7 +27,7 @@ if not os.path.exists('yolov5'):
     subprocess.run(['git', 'clone', 'https://github.com/ultralytics/yolov5.git'], check=True)
     subprocess.run(['pip', 'install', '-r', 'yolov5/requirements.txt'], check=True)
 
-print("🚀 Обучаем YOLOv5 улучшенной конфигурацией...")
+print("Обучаем YOLOv5 улучшенной конфигурацией...")
 
 subprocess.run([
     'python', 'yolov5/train.py',
